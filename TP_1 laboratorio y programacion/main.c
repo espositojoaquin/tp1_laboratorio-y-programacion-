@@ -19,12 +19,12 @@ int main()
 
 
     while(seguir=='s')
-    {    if(flag==1)
+    {    if(flag==1&&flag1==0)
         {
 
 
             printf("\n 1- Ingresar 1er operando: %.2f\n",operando1);
-            printf("2- Ingresar 2do operando: %.2f \n",operando2);
+            printf("2- Ingresar 2do operando:(B=y)\n");
             printf("3- Calcular la suma (A+B)\n");
             printf("4- Calcular la resta (A-B)\n");
             printf("5- Calcular la division (A/B)\n");
@@ -38,9 +38,10 @@ int main()
         }
             else
             {
-
-                printf("\n 1- Ingresar 1er operando (A=X)\n");
-                printf("2- Ingresar 2do operando (B=y)\n");
+                if(flag1==1&&flag==0)
+                {
+                printf("\n 1- Ingresar 1er operando: (A=X)\n");
+                printf("2- Ingresar 2do operando: %.2f\n",operando2);
                 printf("3- Calcular la suma (A+B)\n");
                 printf("4- Calcular la resta (A-B)\n");
                 printf("5- Calcular la division (A/B)\n");
@@ -50,6 +51,41 @@ int main()
                 printf("9- Salir\n");
                 printf("ingrese una opcion: ");
                 scanf("%d",&opcion);
+                }
+                else
+                {
+                    if(flag==1&&flag1==1)
+                    {
+                printf("\n 1- Ingresar 1er operando: %.2f\n",operando1);
+                printf("2- Ingresar 2do operando: %.2f\n",operando2);
+                printf("3- Calcular la suma (A+B)\n");
+                printf("4- Calcular la resta (A-B)\n");
+                printf("5- Calcular la division (A/B)\n");
+                printf("6- Calcular la multiplicacion (A*B)\n");
+                printf("7- Calcular el factorial (A!)\n");
+                printf("8- Calcular todas las operacione\n");
+                printf("9- Salir\n");
+                printf("ingrese una opcion: ");
+                scanf("%d",&opcion);
+                    }
+                    else
+                    {
+                        printf("\n 1- Ingresar 1er operando: (A=X)\n");
+                        printf("2- Ingresar 2do operando: (B=y)\n");
+                        printf("3- Calcular la suma (A+B)\n");
+                        printf("4- Calcular la resta (A-B)\n");
+                        printf("5- Calcular la division (A/B)\n");
+                        printf("6- Calcular la multiplicacion (A*B)\n");
+                        printf("7- Calcular el factorial (A!)\n");
+                        printf("8- Calcular todas las operacione\n");
+                        printf("9- Salir\n");
+                        printf("ingrese una opcion: ");
+                        scanf("%d",&opcion);
+
+                    }
+
+                }
+
                 if(opcion<1||opcion>9)
                 {
                     printf("Introduzca una opcion valida (1-9)\n");
@@ -142,8 +178,7 @@ int main()
                                mul=multiplicacion(operando1,operando2);
                            }
 
-
-                      }
+                       }
                 break;
             case 7:      if(flag==0&&flag1==0)
                       {
@@ -198,8 +233,6 @@ int main()
                                        {
                                            fact=factorial(operando1);
                                        }
-
-
                         }
 
 
