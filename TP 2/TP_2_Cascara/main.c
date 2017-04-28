@@ -91,7 +91,7 @@ int main()
                     printf("ingrese su edad ");
                     fflush(stdin);
                     scanf("%d",&edad);
-                    while(edad<1&&edad>120)
+                    while(edad<1||edad>120)
                     {
                         printf("introduzca una edad valida");
                         fflush(stdin);
