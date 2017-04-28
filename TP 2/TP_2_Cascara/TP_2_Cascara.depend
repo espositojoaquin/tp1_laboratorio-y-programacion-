@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1493312344 source:c:\users\joako\desktop\tp n2\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<conio.h>
+	<string.h>
+
+1493260070 c:\users\joako\desktop\tp n2\tp_2_cascara\funciones.h
+
+1493312151 source:c:\users\joako\desktop\tp n2\tp_2_cascara\funciones.c
+	"funciones.h"
+
+1493342170 source:c:\users\joako\desktop\tp 2 que tiene que andaaaar\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<conio.h>
+	<string.h>
+
+1493340440 c:\users\joako\desktop\tp 2 que tiene que andaaaar\tp_2_cascara\funciones.h
+
+1493344109 source:c:\users\joako\desktop\tp 2 que tiene que andaaaar\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<conio.h>
+	<string.h>
+
+1493385616 source:c:\users\alumno\desktop\tp 2 que tiene que andaaaar\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<conio.h>
+	<string.h>
+
+1493385616 c:\users\alumno\desktop\tp 2 que tiene que andaaaar\tp_2_cascara\funciones.h
+
+1493385361 source:c:\users\alumno\desktop\tp 2 que tiene que andaaaar\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<conio.h>
+	<string.h>
+
+1493389840 source:c:\users\alumno\desktop\prueba lio para jugar\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<conio.h>
+	<string.h>
+
+1493389026 c:\users\alumno\desktop\prueba lio para jugar\tp_2_cascara\funciones.h
+
+1493389305 source:c:\users\alumno\desktop\prueba lio para jugar\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<conio.h>
+	<string.h>
+
+1493389842 source:c:\users\joako\desktop\prueba lio para jugar\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<conio.h>
+	<string.h>
+
+1493397398 c:\users\joako\desktop\prueba lio para jugar\tp_2_cascara\funciones.h
+
+1493390070 source:c:\users\joako\desktop\prueba lio para jugar\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<conio.h>
+	<string.h>
+
